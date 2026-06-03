@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF3E0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- TIÊU ĐỀ -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SỬA KHÁCH HÀNG"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#E65100"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- HỌ TÊN -->
+
+        <EditText
+            android:id="@+id/edtTen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Họ tên khách hàng"
+            android:background="#FFFFFF"
+            android:padding="14dp"
+            android:textSize="16sp"/>
+
+        <!-- EMAIL -->
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:background="#FFFFFF"
+            android:padding="14dp"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp"/>
+
+        <!-- SỐ ĐIỆN THOẠI -->
+
+        <EditText
+            android:id="@+id/edtSDT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Số điện thoại"
+            android:inputType="phone"
+            android:background="#FFFFFF"
+            android:padding="14dp"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp"/>
+
+        <!-- MẬT KHẨU -->
+
+        <EditText
+            android:id="@+id/edtMatKhau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mật khẩu"
+            android:inputType="textPassword"
+            android:background="#FFFFFF"
+            android:padding="14dp"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp"/>
+
+        <!-- BUTTON -->
+
+        <Button
+            android:id="@+id/btnSua"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="SỬA KHÁCH HÀNG"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FF6B00"
+            android:layout_marginTop="22dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
