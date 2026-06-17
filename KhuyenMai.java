@@ -29,6 +29,18 @@ public class KhuyenMai {
         return maCode;
     }
 
+    public void setMaCode(@NonNull String maCode) {
+        this.maCode = maCode;
+    }
+
+    public void setPhanTramGiam(int phanTramGiam) {
+        this.phanTramGiam = phanTramGiam;
+    }
+
+    public void setNgayHetHan(String ngayHetHan) {
+        this.ngayHetHan = ngayHetHan;
+    }
+
     public int getPhanTramGiam() {
         return phanTramGiam;
     }
